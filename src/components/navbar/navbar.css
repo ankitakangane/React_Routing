@@ -1,8 +1,8 @@
 .navbar{
     background-color: rgb(230, 230, 255);
-    
-    padding:10px;
     display: flex;
+    padding:10px;
+   
     height:30px;
 }
 

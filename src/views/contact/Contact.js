@@ -1,13 +1,16 @@
 import React from 'react';
-import Navbar from "./Navbar";
-import contact_img from "./contact.jpg (2).png"
+import Navbar from "../../components/navbar/Navbar";
+import contact_img from "./contact.jpg (2).png";
+import Footer from "./Footer";
+
 
 function Contact() {
   return (
     <div>
-            <Navbar/>
+      <Navbar/>
       <h1 className="product_title">Contact</h1>
       <img src={contact_img} className="product_img"/>
+      <Footer/>
     </div>
   )
 }
