@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "../../components/navbar/Navbar";
 import about_img from "./about.jpg (2).png";
-import Footer from "./Footer";
+import Footer from "../../components/footer/Footer";
 
 function About() {
   return (

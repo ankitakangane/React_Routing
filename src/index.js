@@ -7,7 +7,7 @@ import Contact from "./views/contact/Contact";
 const root = createRoot(document.getElementById("root"));
 const currentPath = window.location.pathname;
 
-if(currentPath == "/home"){
+if(currentPath == "/"){
     root.render(
         <Home/>
     )

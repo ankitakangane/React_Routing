@@ -7,7 +7,7 @@ function Navbar() {
       <span className="product_name">Deserts</span>
         
     <div className="navbar_links">
-      <a href="/home" className="link">
+      <a href="/" className="link">
         Home
       </a>
 
