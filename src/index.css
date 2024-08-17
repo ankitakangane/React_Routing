@@ -4,8 +4,8 @@ body{
 }
 
 .product_img{
-    height:300px;
-    width:500px;
+    height:250px;
+    width:400px;
     object-fit: cover;
     display: block;
     margin:40px auto;
@@ -18,5 +18,21 @@ body{
     border: 1px solid rgb(230, 0, 157);
     border-radius: 20px;
     padding: 5px 10px;
+}
+.butn_container{
+  
+    display:flex;
+    justify-content: center;
+    
+}
+.butn{
+    margin:10px;
+    margin-bottom:10px;
+    padding:5px 10px;
+    border:none;
+    border:1px solid black;
+    border-radius:10px;
+
+
 }
 
